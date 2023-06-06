@@ -1,0 +1,201 @@
+/* DOCUMENTO CSS */
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+body {    
+    font-family: Verdana;
+}
+#topo {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to right,#123159,#F20505,#BF1717,#0D0D0D);
+    padding: 0 100px;
+}
+#topo #logo {
+    width: 70px;
+    height: 70px;
+    margin-left: 100px;
+}
+#topo h1{
+    margin-left: 30px;
+    
+}
+#topo #menu {
+    height: 60px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #030A8C;
+    margin-left: 140px;
+    border-radius: 40px;
+}
+#menu ul {
+    list-style: none;
+}
+#menu ul li {
+    display: inline;
+}
+#menu ul li a{
+    font-size: 14px;
+    color: #fff;
+    padding: 21px 30px 20px 30px;
+    font-weight: 800;
+    transition: 0.4s;
+}
+#menu ul li a:hover{
+    color: #F20505;
+    background-color: #141414;
+}
+#secao1 {
+    height: 800px;
+    background-image: linear-gradient(to right,#691200,#911A00,#330900);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 27px;
+    text-align: center;
+    color: #66A3D9;
+}
+h2{
+	color: #fff;
+}
+#secao2 {
+    height: 800px;
+    background-image: linear-gradient(to right,#020659,#030BA6,#010440,#010326);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 21px;
+    text-align: center;
+    color: #66A3D9;
+    
+}
+#secao3 {
+    height: 1200px;
+     background-image: linear-gradient(to right,#020659,#030BA6,#010440,#010326);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#secao3 .colunaesquerda {
+    width: 50%;
+    
+    background-color: #010440;
+    margin: 0;
+    padding: 0;
+
+}
+#secao3 .colunadireita {
+    width: 50%;
+    
+    background-color: #911A00;
+        margin: 0;
+    padding: 0;
+}
+#secao3 .boxfilmeesquerda {
+    width: 800px;
+    height: 250px;
+    background-color: #020659;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid black;    
+    margin: 0 10px;
+    color: #66A3D9;
+}
+#secao3 .boxfilmedireita{
+    width: 800px;
+    height: 250px;
+    background-color: #691200;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid black;    
+    margin: 0 10px;
+    color: #F20505;
+
+}
+}
+#secao3 .boxfilmeesquerda figure img {
+    height: 100%;
+}
+#secao3 .boxfilmeesquerda figure {
+    height: 189px;
+    margin-left: 50px;
+
+}
+#secao3 .boxfilmedireita figure {
+    height: 189px;
+    margin-left: 50px;
+}
+#secao3 .boxfilmedireita figure img {
+    height: 100%;
+}
+#secao3 .boxfilmeesquerda p {
+    margin-left: 30px;
+    font-size: 30px;
+}
+#secao3 .boxfilmedireita p {
+    margin-left: 30px;
+    font-size: 30px;
+}
+.tituloSecao {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.containerColunas {
+    display: flex;
+}
+.coluna1 {
+    width: 600px;
+    height: 700px;
+    border: 2px solid black;
+    margin: 0 10px;
+    background-color: #030BA6;
+}
+
+}
+.coluna2{
+    width: 600px;
+    height: 700px;
+    border: 2px solid black;	
+    margin: 0 10px;
+    background-color: #911A00;
+
+}
+
+#rodape {
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: linear-gradient(to right,#123159,#F20505,#BF1717,#0D0D0D);
+    padding: 0 100px;
+    font-weight: 600;
+}
+#rodape figure {
+    width: 40px;
+    height: 40px;
+    background-color: #2c2626;
+    margin-left: 100px;
+}
+#rodape p{
+    margin-left: 50px;
+}
